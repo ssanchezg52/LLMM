@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: purple;
+}
+
+form{
+	text-align: center;
+	margin: 80px auto;
+	max-width: 500px;
+	border: solid 3px black;
+	min-width: 300px;
+}
+
+.contenido{
+	padding: 10px;
+	padding-bottom: 50px;
+	background-color: lightblue;
+	overflow: scroll; 
+}
+
+.espacio{
+	padding: 10px;
+}
+
+#boton{
+	background-color: blue;
+	padding: 5px;
+}
+
+#textarea{
+	display: none;
+	justify-content: center;
+	margin-left: 15px;
+}

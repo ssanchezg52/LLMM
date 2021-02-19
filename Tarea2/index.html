@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+
+	<form name="Formulario1" method="post">
+		<div class="contenido">
+			<div class="espacio">
+				Nombre: <input type="text" name="name" id="Nombre">
+			</div>
+			<hr color="black">
+			<div class="espacio">
+				Apellidos: <input type="text" name="surname" id="Apellidos">
+			</div>
+			<hr color="black">
+			<div class="espacio">
+				DNI: <input type="text" name="DNI" id="DNI">
+			</div>
+			<hr color="black">
+			<div class="espacio">
+				<select id="Select">
+					<option>Parado</option>
+					<option>Trabajando</option>
+					<option>Autonomo</option>
+				</select>
+			</div>
+			<hr color="black">
+			<div class="espacio">
+				<div class="espacio">
+					<input type="radio" name="Hobby" value="Deportes"  > Deportes
+				</div>
+				<div class="espacio">
+					<input type="radio" name="Hobby" value="Leer"> Leer
+				</div>
+				<div class="espacio">
+					<input type="radio" name="Hobby" value="Viajar"> Viajar
+				</div>
+				
+			</div>
+			<hr color="black">
+			<div class="espacio">
+				Fecha de nacimiento: <input type="date" name="fecha" id="Date">
+			</div>
+			<hr color="black">
+			<div class="espacio">
+				¿Aceptas las condiciones? <input type="checkbox" name="condiciones" id="Condiciones">
+			</div>
+			<hr color="black">
+			<div class="espacio">
+				<input type="submit" value="Guardar" id="boton">
+			</div>
+			<div id="textarea">
+				<textarea cols="60" rows="10" id="resultado"></textarea>
+			</div>
+		</div>
+	</form>
+
+</body>
+</html>
