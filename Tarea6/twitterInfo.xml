@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listaTweets>
+	<tweet> 
+		<usuario>Peugeot </usuario>
+		<nombreUsuario> @Peugeot </nombreUsuario>
+		<texto> Cambiamos por completo nuestra identidad de marca. Descubre cómo los leones de hoy recuperan el control. </texto>
+		<imagen> https://cdn.motor1.com/images/mgl/lpk2g/s1/peugeot-308-rendering.jpg </imagen>
+	</tweet>
+	<tweet>
+		<usuario> Marca </usuario>
+		<nombreUsuario> @marca </nombreUsuario>
+		<texto> Alonso luce su nueva máquina, la final del Camp Nou... Así nos llegan esta mañana al quiosco #LasPortadas del deporte </texto>
+		<imagen>https://phantom-marca.unidadeditorial.es/2ec4c37445fb72e45bd2ed2bd0f8b6ca/assets/multimedia/imagenes/2021/03/03/16147279781362.jpg</imagen>
+	</tweet>
+	<tweet>
+		<usuario>RTVE Noticias</usuario>
+		<nombreUsuario>@rtvenoticias</nombreUsuario>
+		<texto>El Gobierno de Baleares ha decido expropiar de forma temporal, durante 7 años, 56 viviendas de grandes tenedores para destinarlas a alquiler social</texto>
+		<imagen> Vacio </imagen>
+	</tweet>
+	<listatendencias>
+		<tendencias> 
+			<titulo> #LionsOfOurTime </titulo>
+			<imagen> Vacio </imagen>
+		</tendencias>
+		<tendencias>
+			<titulo> #DepAlexCasademunt </titulo>
+			<imagen> https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/03/03/16147300925975.jpg </imagen>
+		</tendencias>
+	</listatendencias>
+	<listaSugerencias>
+		<sugerencia>
+			<imagen> iconoAlpine.PNG </imagen>
+			<usuario>Alpine F1 Team</usuario>
+			<nombreUsuario>@AlpineF1Team</nombreUsuario>
+		</sugerencia>
+		<sugerencia>
+			<imagen> Vacio </imagen>
+			<usuario>Scuderia AlphaTauri</usuario>
+			<nombreUsuario>@AlphaTauriF1</nombreUsuario>
+		</sugerencia>
+		<sugerencia>
+			<imagen> Vacio </imagen>
+			<usuario> FIA </usuario>
+			<nombreUsuario> @fia </nombreUsuario>
+		</sugerencia>
+	</listaSugerencias>
+
+</listaTweets>
+

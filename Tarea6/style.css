@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	display: flex;
+	padding: 5px;
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	align-items: center;
+	max-width: 100%;
+	min-width: 1070px;
+}
+
+	.parteIzquierda-header{
+		flex:10%;
+	}
+
+		.iconoHeader{
+			width: 70px;
+		}
+
+	.parteCentro-header{
+		flex:60%;
+	}
+
+	.parteDerecha-header{
+		flex:30%;
+		text-align: right;
+		margin-bottom: 10px;
+	}
+
+			.inputfile {
+				width: 0.1px;
+				height: 0.1px;
+				opacity: 0;
+				overflow: hidden;
+				position: absolute;
+				z-index: -1;
+			}
+
+			label {
+	    		font-size: 1.25em;
+	   			font-weight: bold;
+	   			border-style: solid;
+	   			padding: 5px;
+	  			display: inline-block;
+			}
+
+			label:hover {
+			    background-color: red;
+			}
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	min-width: 400px;
+	max-width: 100vw;
+	min-height: 90vh;
+}
+
+	#parteIzquierda{
+		flex: 10%; 
+		font-size: 2em;
+		padding: 10px;
+	}
+
+.espacio{
+	padding: 10px;
+}
+
+	.flexIconText{
+		display: flex;
+		flex-direction: row;
+	}
+
+		.parteIzquierdaContenedor-izquierda{
+			flex: 10%;
+		}
+
+			.imagenIcono{
+				width: 35px;
+			}
+
+		.parteIzquierdaContenedor-derecha{
+			flex: 90%;
+			margin-left: 20px;
+			text-decoration: none;
+		}
+
+			.enlaces{
+				text-align: left;
+				color: black;
+				text-decoration: none;
+			}
+
+#parteCentro{
+	flex: 60%;
+}
+
+	.tituloInicio{
+		border-style: solid;
+		border-top: none;
+	}
+
+		.inicio{
+			font-size: 2em;
+			font-weight: bold;
+			margin-left: 10px;
+		}
+
+
+	.tweet{
+		border-style: solid;
+		padding: 20px;
+		font-weight: bold;
+		border-top: none;
+	}
+
+	.nombre{
+		font-size: 1.3em;
+	}
+
+	.contenido{
+		font-size: 1.5em;
+		font-weight: normal;
+		padding: 5px;
+	}
+
+	.imagen{
+		width: 600px;
+	}
+
+#parteDerecha{
+	flex: 30%;
+	padding-top: 10px;
+}
+
+	.contenedorTituloParteDerecha{
+		text-align: center;
+		padding: 10px;
+	}
+
+		.tituloParteDerecha{
+			font-size: 1.5em;
+			text-decoration: underline;
+			font-weight: bold;
+		}
+
+	#tendencia, #tendenciaDos{
+		display: none;
+		flex-direction: row;
+		border-style: solid;
+		padding: 5px;
+		align-items: center;
+		font-weight: bold;
+		margin-left: 5px;
+		width: 214px;
+	}
+
+	#tendenciaDos{
+		border-top: none;
+	}
+
+		.tituloTendencia{
+			flex: 90%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.imagenTendencia{
+			flex: 10%;
+		}
+
+			.imagenParteDerecha-tendencia{
+				border-style: solid;
+				border-radius: 15px;
+				width: 80px;
+			}
+
+	.sugerencia{
+		display: none;
+		flex-direction: row;
+		border-style: solid;
+		border-radius: 5px;
+		padding: 8px;
+		min-width: 100px;
+		align-items: center;
+		margin-left: 5px;
+	}
+
+		.parteIzquierda-sugerencia{
+			flex: 10%;
+		}
+
+			.imagenPerfil{
+				width: 40px;
+				border-style: solid ;
+				border-radius: 50%;
+				height: 40px;
+			}
+
+		.parteCentro-sugerencia{
+			flex: 80%;
+			margin-left: 5px;
+			margin-right: 5px;
+			width: 10px;
+		}
+			.usuarioSugerencia{
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+
+			.nombreUsuarioSugerencia{
+				font-size: 0.8em;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+
+		.parteDerecha-sugerencia{
+			flex: 10%;
+		}
+
+			.imagenParteDerecha{
+				width: 75px;
+			}
+
+footer{
+	background-color: #00ADDB;
+	font-weight: bold;
+	font-size: 1.1em;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	padding: 7px;
+}
+
+@media (max-width: 500px){
+
+	header{
+		min-width: 500px;
+	}
+
+	.contenedor{
+		flex-direction: column;
+		max-width: 500px;
+    	min-width: 265px;
+	}
+
+	.tweet{
+		overflow: scroll;
+		overflow-y: hidden;
+	}
+
+	.imagen{
+		width: 300px;
+	}
+
+	.tituloInicio{
+		border-top: solid;
+	}
+
+	#tendencia, #tendenciaDos{
+		width: auto;
+	}
+	
+}
