@@ -1,0 +1,43 @@
+{
+	"NombreCiudad": "",
+	"TiempoCiudad": [
+		{
+			"Dia": 12,
+			"Temperatura": 22,
+			"UnidadDeTiempo": "°C",
+			"Viento": "11",
+			"UnidadDeMedida": "km/h",
+			"EstadoDelDia" :[
+				{
+					"nombre": "Mayormente nublado",
+					"icono": "https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+				}
+			]
+		},
+		{
+			"Dia": 13,
+			"Temperatura": "23°C",
+			"Viento": 10,
+			"UnidadDeMedida": "km/h",
+			"EstadoDelDia" :[
+				{
+					"nombre": "Mayormente nublado",
+					"icono": "https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+				}
+			]
+		},
+		{
+			"Dia": 14,
+			"Temperatura": "22°C",
+			"Viento": "14",
+			"UnidadDeMedida": "km/h",
+			"EstadoDelDia" :[
+				{
+					"nombre": "Chubascos dispersos",
+					"icono": "https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
+				}
+			]
+		}
+
+	]
+}
