@@ -30,7 +30,16 @@
 					"nombre": "Chubascos dispersos",
 					"icono": "https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
 				}
+		},
+		{
+			"Dia": 14,
+			"Temperatura": "21°C",
+			"Viento": 7,
+			"UnidadDeMedida": "km/h",
+			"EstadoDelDia" :{
+					"nombre": "Mayormente nublado",
+					"icono": "https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+				}
 		}
-
 	]
 }
