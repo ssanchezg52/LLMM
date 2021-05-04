@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 100%;
+}
+
+	#parteIzquierda{
+		display: flex;
+		flex-direction: column;
+		width: 20%;
+		background-color: #324465;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+		.img-dia-actual{
+			width: 60%;
+			height: 20%;
+		}
+
+		.temperatura-dia-actual{
+			font-size: 3em;
+		}
+
+		.ciudad{
+			margin-top: 20vh;
+		}
+
+	.parteDerecha{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		background-color: #111140;
+	}
+
+		#parteArriba{
+			display: flex;
+			height: 50%;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			color: white;
+		}
+
+			.diaUno{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-direction: column;
+				border:0px solid;
+				background-color: #324465;
+				width: 20%;
+				height: 45%;
+				margin-right: 10px;
+			}
+
+			.img-iconosSiguientes{
+				width: 30%;
+				height: 40%;
+			}
+
+		#parteAbajo{
+			display: flex;
+			height: 50%;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			color: white;
+		}
+
+			.viento, .humedad {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				border:0px solid;
+				background-color: #324465;
+				width: 22%;
+				height: 43%;
+				margin-right: 10px;
+			}
+
+@media (max-width: 800px) {
+
+	.contenedor {
+		flex-direction: column;
+	}
+
+	.img-dia-actual{
+		width: 30%;
+		height: 45%;
+	}
+
+	.img-iconosSiguientes{
+		width: 40%;
+		height: 60%;
+	}
+
+	#parteIzquierda{
+		width: 100%;
+		height: 50%;
+	}
+
+	#parteArriba, #parteAbajo{
+		height: 50vh;
+	}
+
+		.diaUno{
+			width: 40%;
+			height: 35%;
+		}
+
+		.ciudad, .estado-nombre{
+			margin-top: 5vh;
+		}
+
+		.viento, .humedad{
+			width: 40%;
+			height: 35%;
+		}
+
+}
+
+@media (max-width: 350px){
+
+	.viento, .humedad{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 270px){
+
+	#parteIzquierda{
+		min-width: 270px;
+	}
+
+	.parteDerecha{
+		min-width: 270px;
+	}
+}
+
