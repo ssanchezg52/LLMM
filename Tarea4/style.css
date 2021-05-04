@@ -21,8 +21,8 @@
 	}
 
 		.img-dia-actual{
-			width: 70%;
-			height: 30%;
+			width: 60%;
+			height: 20%;
 		}
 
 		.temperatura-dia-actual{
@@ -62,8 +62,8 @@
 			}
 
 			.img-iconosSiguientes{
-				width: 40%;
-				height: 45%;
+				width: 30%;
+				height: 40%;
 			}
 
 		#parteAbajo{
