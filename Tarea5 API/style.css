@@ -178,6 +178,7 @@ a{
 						text-align: center;
 						border: 2px solid;	
 						border-right: none;
+						outline: none;
 					}
 
 					.contenedorIcono{
@@ -185,6 +186,7 @@ a{
 						border: 2px solid;
 						border-left: none;
 						background-color: white;
+						outline: none;
 					}
 
 						.iconoBusqueda{
