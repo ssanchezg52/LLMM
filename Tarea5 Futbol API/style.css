@@ -134,7 +134,7 @@ a{
 
 		#bloquePresentacion {
 			background-image: url(fondoPresentacion.jpg);
-			
+			background-repeat: no-repeat;
 			height: 100vh;
 			display: flex;
 			align-items: center;
