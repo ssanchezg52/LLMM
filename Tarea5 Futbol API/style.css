@@ -134,12 +134,11 @@ a{
 
 		#bloquePresentacion {
 			background-image: url(fondoPresentacion.jpg);
-			background-repeat: no-repeat;
 			height: 100vh;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			color: white;
+			color: #F58F00;
 			flex-direction: column;
 			text-align: center;
 		}
@@ -242,9 +241,25 @@ a{
 								max-width: 20%;
 							}
 
+								.equipoLocal h5{
+									color: #080C08;
+								}
+
+								.equipoLocal h5:hover {
+									color: #B26C9E;
+								}
+
 							.equipoVisitante{
 								max-width: 22%;
 							}
+
+								.equipoVisitante h5{
+									color: #080C08;
+								}
+
+								.equipoVisitante h5:hover {
+									color: #B26C9E;
+								}
 
 							.InfoResultado{
 								width: 25%;
@@ -323,6 +338,10 @@ a{
 		width: 100%;
 	}
 
+	#bloquePresentacion{
+		background-size: 100% 100%;
+	}
+
 	.tipoLigas {
 		width: 21vh;
 	}
@@ -371,8 +390,6 @@ a{
 
 	#bloquePresentacion {
 		font-size: 1em;
-		text-align: left;
-		align-items: baseline;
 	}
 }
 

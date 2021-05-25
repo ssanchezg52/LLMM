@@ -77,7 +77,7 @@ fetchJSON(url)
 						</div>
 					</div>
 					<div class="equipoLocal">
-						<h5> ${partidos.side1.name} </h5>
+						<a href="${partidos.side1.url}" target="_blank"> <h5> ${partidos.side1.name} </h5> </a>
 					</div>
 					<div class="InfoResultado">
 						<div class="InfoPartido">
@@ -88,7 +88,7 @@ fetchJSON(url)
 						 </div>
 					</div>
 					<div class="equipoVisitante">
-						<h5> ${partidos.side2.name} </h5>
+						<a href="${partidos.side2.url}" target="_blank"> <h5> ${partidos.side2.name} </h5> </a>
 					</div>
 					`
 					;
