@@ -1,0 +1,62 @@
+{
+	"nombre": "Sport Shop",
+	"ciudad": "Badajoz",
+	"catalogo": {
+		"camisetas": [
+			{
+				"tipo": "Manga corta",
+				"marca": "Mike",
+				"tallas": "S, M y L"
+			},
+			{
+				"tipo": "Manga larga",
+				"marca": "Addidas",
+				"tallas": "M y L"
+			},
+			{
+				"tipo": "Sin mangas",
+				"marca": "Gordan",
+				"tallas": "M, L y XL"
+			}
+		],
+		"pantalones": [
+			{
+				"tipo": "Cortos",
+				"marca": "Gordan",
+				"tallas": "S, M y L"
+			},
+			{
+				"tipo": "Cortos",
+				"marca": "Mike",
+				"tallas": "S y M"
+			},
+			{
+				"tipo": "Largos",
+				"marca": "Addidas",
+				"tallas": "M y XL"
+			}
+		],
+		"zapatillas": [
+			{
+				"tipo": "Baloncesto",
+				"marca": "Gordan",
+				"tallas": "41, 43, 45"
+			},
+			{
+				"tipo": "Futbol",
+				"marca": "Messirve",
+				"tallas": "40, 41, 42"
+			},
+			{
+				"tipo": "Baloncesto",
+				"marca": "Mike",
+				"tallas": "44, 45, 46"
+			}
+		]
+	},
+	"contacto": {
+		"nombre": "Jony Melavo",
+		"email": "eseJony@gmail.com"
+	}
+
+}
